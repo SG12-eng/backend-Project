@@ -2,7 +2,7 @@
   "name": "backendproject",
   "version": "1.0.0",
   "description": "a backend Project",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js"
@@ -14,6 +14,7 @@
   "author": "Sagar Gupta",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
   }
 }
