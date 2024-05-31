@@ -59,7 +59,7 @@ const deleteComment = asyncHandler(async(req, res) => {
   const {commentId} = req.params;
   const {content} = req.body;
 
-  const comment = await Comment.findBy
+  const comment = await Comment.findById(commentId)
   if(!comment) {
     throw new ApiError(404, "comment not found")
   }
